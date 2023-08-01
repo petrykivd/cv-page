@@ -5,10 +5,16 @@ body {
   font-weight: 400;
   line-height: 150%;
   color: #485268;
+  background-color: #E5E5E5;
 }
 
 strong {
   font-weight: 500;
+}
+
+.page {
+  width: 595px;
+  margin: 0 auto;
 }
 /* #region about */
 
@@ -45,6 +51,7 @@ strong {
 /* #endregion */
 .main {
   padding: 0px 40px;
+  background-color: white;
 }
 /* #region contacts */
 .contacts {
@@ -139,6 +146,46 @@ text-align: center;
   width: 20%;
   height: 20%;
 }
+/* #region skills */
+.skills {
+  display: flex;
+}
 
+.skills__list {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
 
+.skills_item {
+  margin-top: 8px;
+}
+.skills_item:first-child{
+  margin-top: 0;
+}
+/* #endregion */
 
+/* #region tools */
+.tools {
+  display: flex;
+}
+
+.tools__list {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.tools_item {
+  margin-top: 8px;
+}
+.tools_item:first-child{
+  margin-top: 0;
+}
+/* #endregion */
